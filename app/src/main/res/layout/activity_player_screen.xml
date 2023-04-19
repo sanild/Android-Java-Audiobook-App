@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/playerbg"
+    tools:context=".playerScreen">
+
+
+    <ImageButton
+        android:id="@+id/playbutton"
+        android:layout_width="81dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="165dp"
+        android:background="@android:drawable/ic_media_play"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/playbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/stopbutton"
+        app:layout_constraintStart_toEndOf="@+id/pausebutton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/pausebutton"
+        android:layout_width="81dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginBottom="165dp"
+        android:background="@android:drawable/ic_media_pause"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/pauseButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/stopbutton"
+        android:layout_width="81dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="477dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="165dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/stopButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playbutton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/chapterImage"
+        android:layout_width="409dp"
+        android:layout_height="357dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="93dp"
+        android:src="@drawable/bookcover"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/pausebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="102dp"
+        android:text="@string/playbutton"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="102dp"
+        android:text="@string/pauseButton"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="102dp"
+        android:text="@string/stopButton"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

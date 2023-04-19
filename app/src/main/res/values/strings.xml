@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Audiobook</string>
+    <string name="playbutton">Play</string>
+    <string name="chapter1">Chapter 1</string>
+    <string name="chapter2">Chapter 2</string>
+    <string name="chapter3">Chapter 3</string>
+    <string name="chapter4">Chapter 4</string>
+    <string name="chapter5">Chapter 5</string>
+    <string name="chapter6">Chapter 6</string>
+    <string name="chapter7">Chapter 7</string>
+    <string name="chapter8">Chapter 8</string>
+    <string name="chapter9">Chapter 9</string>
+    <string name="chapter10">Chapter 10</string>
+    <string name="chapter11">Chapter 11</string>
+    <string name="chapter12">Chapter 12</string>
+    <string name="chapter13">Chapter 13</string>
+    <string name="chapter14">Chapter 14</string>
+    <string name="chapter15">Chapter 15</string>
+    <string name="chapter16">Chapter 16</string>
+    <string name="pauseButton">Pause</string>
+    <string name="stopButton">Stop</string>
+    <string name="quote">Happiness is only real when shared.</string>
+</resources>

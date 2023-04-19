@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PlayButton">
+        <item name="android:layout_width">206dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:translationX">200sp</item>
+    </style>
+
+    <style name="chapterView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_mono_light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="chapterView1" parent="chapterView">
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
